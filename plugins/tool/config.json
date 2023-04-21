@@ -5,7 +5,7 @@
     "terminal",
     "meteo-weather",
     "wolfram-alpha",
-    wikipedia
+    "wikipedia"
     
   ],
   "kwargs": {
@@ -16,8 +16,8 @@
       "proxy": "",
       "debug": false,
       "no_default": false,
-       "wolfram_alpha_appid": "URVEEE-77PTGX83YP",  // sample key
-           "request_timeout": 120  // openai接口超时时间
+       "wolfram_alpha_appid": "URVEEE-77PTGX83YP",  
+           "request_timeout": 120  
   }
  
 }
