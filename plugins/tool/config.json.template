@@ -3,16 +3,16 @@
     "python",
     "url-get",
     "terminal",
-    "meteo-weather"
+    "meteo-weather",
+    "wolfram-alpha",
+    wikipedia
+    
   ],
   "kwargs": {
     "top_k_results": 2,
     "no_default": false,
     "model_name": "gpt-3.5-turbo"
   }
-}
-{
-  "tools": ["wolfram-alpha"],
   "kwargs": {
       "openai_api_key": "",
       "proxy": "",
@@ -21,9 +21,6 @@
       "model_name": "gpt-3.5-turbo",
       "wolfram_alpha_appid": "URVEEE-77PTGX83YP"  // sample key
   }
-}
-{
-  "tools": ["wikipedia", ],  // 填入你想用到的额外工具名
   "kwargs": {
       "debug": true, // 当你遇到问题求助时，需要配置
       "request_timeout": 120,  // openai接口超时时间
@@ -31,3 +28,4 @@
       // 带*工具需要申请api-key，在这里填入，api_name参考前述`申请方法`
   }
 }
+
