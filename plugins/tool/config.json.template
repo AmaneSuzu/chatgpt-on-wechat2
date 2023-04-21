@@ -12,20 +12,13 @@
     "top_k_results": 2,
     "no_default": false,
     "model_name": "gpt-3.5-turbo"
-  }
-  "kwargs": {
-      "openai_api_key": "",
+     "openai_api_key": "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",
       "proxy": "",
       "debug": false,
       "no_default": false,
-      "model_name": "gpt-3.5-turbo",
-      "wolfram_alpha_appid": "URVEEE-77PTGX83YP"  // sample key
+       "wolfram_alpha_appid": "URVEEE-77PTGX83YP",  // sample key
+           "request_timeout": 120  // openai接口超时时间
   }
-  "kwargs": {
-      "debug": true, // 当你遇到问题求助时，需要配置
-      "request_timeout": 120,  // openai接口超时时间
-      "no_default": false,  // 是否不使用默认的4个工具
-      // 带*工具需要申请api-key，在这里填入，api_name参考前述`申请方法`
-  }
+ 
 }
 
