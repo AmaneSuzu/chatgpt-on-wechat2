@@ -5,7 +5,8 @@
     "terminal",
     "meteo-weather",
     "wolfram-alpha",
-    "wikipedia"
+    "wikipedia",
+    "news"
     
   ],
   "kwargs": {
@@ -14,9 +15,10 @@
     "model_name": "gpt-3.5-turbo",
     "openai_api_key": "",
     "proxy": "",
-    "debug": false,
+    "debug": true,
     "no_default": false,
     "wolfram_alpha_appid": "URVEEE-77PTGX83YP",  
+    "news_api_key": "64ktnukOBi560lEH" 
     "request_timeout": 120  
   }
  
